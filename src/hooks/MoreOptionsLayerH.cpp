@@ -49,7 +49,7 @@ bool MoreOptionsLayerH::init() {
     
     // can u just add this show fps
     // in options menu rob?
-    #ifdef GEODE_IS_MOBILE || GEODE_IS_IOS
+    #ifdef GEODE_IS_MOBILE
         addToggle(
             "Show Framerate",
             "0115",
