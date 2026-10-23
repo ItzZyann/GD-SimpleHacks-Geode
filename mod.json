@@ -8,10 +8,21 @@
 	},
 	"id": "itzzyann.simple-hacks",
 	"name": "Simple Hacks",
-	"version": "v1.0.0-alpha.1",
+	"version": "v1.0.0",
 	"developer": "ItzZyann",
-	"description": "",
+	"description": "A simple hacks options :D!",
+    "early-load": true,
 	"dependencies": {
 		"geode.node-ids": ">=v1.23.3"
-	}
+	},
+    "links": {
+		"source": "https://github.com/ItzZyann/GD-SimpleHacks-Geode"
+	},
+    "tags": [
+		"utility",
+		"gameplay",
+		"cheat",
+		"customization",
+		"universal"
+	]
 }

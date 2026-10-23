@@ -1,2 +1,2 @@
-# GDPS: Philippines
-- A simple Philippines private server for Geometry Dash.
+# GD: Simple Hacks
+- A simple hacks options that includes QOL and performance gain options.

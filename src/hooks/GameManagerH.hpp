@@ -4,6 +4,6 @@
 
 class $modify(GameManagerH, GameManager) {
 public:
-    bool isIconUnlocked(int pID, IconType pType);
-    bool isColorUnlocked(int pID, UnlockType pType);
+    $override bool isIconUnlocked(int pID, IconType pType);
+    $override bool isColorUnlocked(int pID, UnlockType pType);
 };

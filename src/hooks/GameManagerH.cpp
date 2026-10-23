@@ -6,12 +6,12 @@ bool GameManagerH::isIconUnlocked(int pID, IconType pType) {
     if (getGameVariable("2001"))
         return true;
     else
-        return GameManagerH::isIconUnlocked(pID, pType);
+        return GameManager::isIconUnlocked(pID, pType);
 }
 
 bool GameManagerH::isColorUnlocked(int pID, UnlockType pType) {
-    if (getGameVariable("2002"))
+    if (getGameVariable("2001"))
         return true;
     else
-        return GameManagerH::isColorUnlocked(pID, pType);
+        return GameManager::isColorUnlocked(pID, pType);
 }
